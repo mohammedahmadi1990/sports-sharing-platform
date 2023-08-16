@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Media Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<header class="container d-flex justify-content-between align-items-center">
+    <img src="assets/logo.png" alt="Platform Logo">
+    <nav>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+</header>
+
+<main>
+    <!-- This section can be populated dynamically using JS to fetch and display posts -->
+    <section id="posts-feed" class="container">
+        <!-- Example post structure -->
+        <article class="post">
+            <header>
+                <h2>Username</h2>
+            </header>
+            <img src="link_to_image_or_video_thumbnail" alt="Post Media">
+            <p>Caption or description for the post</p>
+            <footer>
+                <button>Like</button>
+                <button>Comment</button>
+                <button>Follow</button>
+            </footer>
+        </article>
+        <!-- Repeat for other posts -->
+    </section>
+</main>
+
+<script src="js/app.js"></script>
+</body>
+</html>
